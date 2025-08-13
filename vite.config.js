@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 // https://vitejs.dev/config/
 export default defineConfig({
   base: process.env.NODE_ENV === 'production'
-    ? '/week11/' // 生产环境部署的路径
+    ? '/Week11/'
     : '/',
   plugins: [
     vue(),
